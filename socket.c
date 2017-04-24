@@ -22,4 +22,5 @@ int  main(int argc, char const *argv[])
 	else{
 		perror("Exito l abrir el socket");
 	}
+	close(packet_socket);
 }
